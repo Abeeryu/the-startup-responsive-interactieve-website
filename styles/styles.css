@@ -106,7 +106,7 @@ h1 {
 h2 {
     color: #0000FF;
     /* margin-left: 130px; */
-    margin-top: 110px;
+    margin-top: 1em;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -148,8 +148,9 @@ span {
     color: #0000FF;
     font-weight: 700;
     font-style: normal;
-    margin-left: 36rem;
+    /* margin-left: 36rem; */
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .img2 {
