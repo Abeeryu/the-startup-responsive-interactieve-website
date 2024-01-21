@@ -81,7 +81,7 @@ h1 {
     position: absolute;
     font-size: var(--medium-text);
     font-style: normal;
-    font-weight: var(--large-text-weight);
+    font-weight: var(--medium-text-weight);
     background-color: var(--article-color);
     bottom: 0;
     right: 0;
@@ -191,7 +191,7 @@ span1 {
     padding-bottom: 1rem;
 }
 
-.button {
+.button1 {
     /* margin-left: 23px; */
     display: inline-block;
     /* width: 360px;
@@ -263,6 +263,42 @@ span1 {
 
 }
 
+.reis {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.college-titel {
+    font-size: var(--medium-text);
+    font-weight: var(--medium-text-weight);
+    font-style: normal;
+    color: var(--primarycolor);
+}
+
+.college-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.li3 {
+    width: 50%;
+}
+
+.img {
+    display: block;
+    width: 10%;
+    height: auto;
+}
+
 .form-border {
     background-color: var(--secondarycolor);
     overflow: hidden;
@@ -332,6 +368,54 @@ textarea {
     height: 10em;
     border-bottom: 0.15em solid;
     color: var(--primarycolor);
+}
+
+.button {
+    border-radius: 20px;
+    border: 0;
+    color: aquamarine;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+
+.popup.open {
+    opacity: 1;
+    z-index: 1;
+    display: block;
+}
+
+.popup-text {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px var(--dark-color);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+.popup-text p {
+    line-height: 24px;
+    margin: 10px 0;
 }
 
 /* .felicitaties {
