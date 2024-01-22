@@ -33,6 +33,8 @@ header {
     padding: 1em;
 }
 
+/* TYPOGRAFIE */
+
 p {
     font-size: var(--body-text);
     font-style: normal;
@@ -58,6 +60,8 @@ h1 {
     height: 10em;
     align-self: flex-end;
 }
+
+/* CONTAINER 1 SECTION */
 
 .img1 {
     display: block;
@@ -107,6 +111,8 @@ h1 {
     padding-bottom: 2rem;
 }
 
+/* CIJFERS & FACTS SECTION */
+
 .facts-cijfers-list {
     /* display: inline-flex; */
     display: flex;
@@ -146,6 +152,8 @@ span1 {
     margin-bottom: 2rem;
     text-align: center;
 }
+
+/* CONTAINER 2 SECTION */
 
 .img2 {
     display: block;
@@ -208,6 +216,8 @@ button {
     margin-top: 1.5em;
 }
 
+/* JASPER INTERVIEW SECTION */
+
 .img3 {
     border-radius: 50%;
     margin-top: 1.5em;
@@ -250,45 +260,7 @@ button {
     padding-left: 2rem;
 }
 
-/* .timeline-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 1.5em;
-}
-
-.timeline {
-    flex-direction: column;
-    max-width: 27.625rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    border-left: 1em;
-    list-style: none;
-}
-
-.timeline-text {
-    padding-left: .87rem; 
-    padding-bottom: 3.44rem;
-}
-
-.title {
-    color: blue;
-    font-size: var(--medium-text);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.8125rem;
-    display: flex;
-}
-
-.info {
-    font-weight: var(--body-text-weight);
-    font-size: var(--body-text);
-}
-
-.img-timeline {
-    width: 100%;
-    padding-right: 1em;
-} */
+/* TIMELINE SECTION */
 
 .timeline-section {
     min-height: 100vh;
@@ -392,6 +364,8 @@ button {
     }
 }
 
+/* EEN REIS DOOR DE TIJD SECTION  */
+
 .reis {
     display: flex;
     flex-direction: column;
@@ -426,6 +400,8 @@ button {
     width: 10%;
     height: auto;
 }
+
+/* FELICITATIES FORMULIER SECTION */
 
 .form-border {
     background-color: var(--secondarycolor);
@@ -561,6 +537,8 @@ button:active {
     padding-top: 3rem;
     color: #0000FF;
 } */
+
+/* FELICITATIES VAN MENSEN SECTION */
 
 .felicitaties-footer {
     display: flex;
