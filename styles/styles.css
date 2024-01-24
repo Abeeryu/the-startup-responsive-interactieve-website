@@ -278,7 +278,6 @@ button:hover {
     font-weight: var(--body-text-weight);
     line-height: 35px;
     color: var(--dark-color);
-    /* margin-left: 39px; */
     padding-left: 2rem;
 }
 
