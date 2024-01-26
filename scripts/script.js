@@ -4,7 +4,8 @@ const popup = document.getElementById("popup");
 
 // Event listener for opening the popup
 
-openBtn.addEventListener("click", () =>{
+openBtn.addEventListener("submit", (event) =>{
+    event.preventDefault();
     popup.classList.add("open");
     console.log("njnj")
 });
